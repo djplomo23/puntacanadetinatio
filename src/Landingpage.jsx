@@ -72,7 +72,7 @@ function Landingpage() {
                   <p>
                   En resumen, si buscas seguridad, comodidad y una experiencia inolvidable en tu viaje a Punta Cana, nuestro servicio de transporte es la opción ideal para ti. Reserva ahora para disfrutar de la mejor atención y servicio de nuestros choferes experimentados y altamente capacitados. ¡No te arrepentirás!
                   
-                  </p>
+                  </p> 
                   <a href="https://wa.me/18494530100?text=Hola Necesito Informacion sobre los transportes." target='_blank' className='flex justify-center '>
               <button className='btn my-4  verde'>¡Haz clic aquí para reservar ahora y disfrutar de una experiencia única! </button></a>
                 </div>
