@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bgColor{
+  /*background: linear-gradient(to right, #00c459, #04529c);*/
+  background: black;
+}
+.btn1{
+  background-color: #f3ec78;
+    background-image: linear-gradient(to right, #04529c, #00c459);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    border: solid 1px white;
+    padding: 0 20px;
+    border-radius: 5px ;
+}
+
+.btn{
+  color: white;
+    border: solid 1px white;
+    padding: 20px 20px;
+    border-radius: 5px ;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.box{
+  -webkit-box-shadow: inset 1px 3px 104px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 1px 3px 104px -11px rgba(0,0,0,0.75);
+  box-shadow: inset 1px 3px 104px -11px rgba(0,0,0,0.75);
+}
+
+.box2{
+  background: linear-gradient(to right, #04529c, #00c459);
+}
+
+@keyframes animate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    trasnform: rotate(360deg);
+  }
+  
+}
+
+.verde{
+  background: #00c459;
+}
+
+.azul{
+  background: #04529c;
+}
+
+.flecha{
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  height: 30px;
+  background: #04529c;
+}
+
+#mas{
+  position: relative;
+}
