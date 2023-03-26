@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+
 import logo from './assets/Punta-cana-destination-logo.webp'
 import whatsapp from './assets/whatsapp.png'
 import V1 from './assets/Vehiculo 1.jpeg'
